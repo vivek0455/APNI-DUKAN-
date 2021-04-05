@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+
+#login-box{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        
+}
+
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 29px;
+    
+}
+input[type="text"],
+input[type="password"]
+
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    background: #ff5722;
+    transition: 0.3 ease;
+}
+
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url("image.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.or{
+    position: absolute;
+    top: 180px;
+    left: 385px;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgbs(0,0,0,0.6);
+    line-height: 40px;
+    text-align-last: center;
+}
+
+.right-box .signinwith{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+button.social{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+.facebook{
+    background: blue;
+}
+
+.twitter{
+    background: aqua;
+}
+.google{
+    background: red;
+}

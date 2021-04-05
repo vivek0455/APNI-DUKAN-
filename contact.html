@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<title>contact page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="contactstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"      ></script>
+ 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  ></script>  
+</head>
+<body>    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" aria-hidden="true" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" aria-hidden="true" id="close-btn" onclick="closemenu()"></i>
+                       
+            <a href="index.html"><img src="ig/logo.jpg" width="80px" class="logo"></a>
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Cart</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="container">
+		<h1>CONNECT WITH US</h1>
+		<p>we would love to response to your quaries and help  you succeed.<br/> Feel free to get in touch with us.</p>
+		<div class="contact-box">
+			<div class="contact-left">
+			<h3> SEND YOUR MESSAGE</h3>
+			<form>
+				<div class="input-row">
+					<div class="input-group">
+					<label>NAME</label>
+					<input type="text"  size="40" required />
+					
+					</div>
+					 
+					<div class="input-group">
+					<label>MOBILE</label>
+				
+					<input type="text"  required/>
+					</div>
+					<div class="input-group">
+					<label>Email</label>
+					<input type="email" required/>
+					</div>
+					<div class="input-group">
+					<label>SUBJECT</label>
+					<input type="text" required/>
+					</div>
+					<div class="input-group">
+					<label>CATEGORIES</label><br/>
+					OPTIONS :
+					<select>
+					
+						<option value="Urban">URBAN</option>
+						<option value="RURAL">RURAL</option>
+						
+					</select>
+					</div>
+				</div>
+				<label>MESSEGE</label>
+				<textarea rows="5" placeholder="Enter your message here" ></textarea>
+				<button type="submit">SEND</button>
+			</form>
+			</div>
+			<div class="contact-right">
+			<h3>REACH US </h3>
+			<table>
+				<tr>
+					<td>EMAIL</td>
+					<td>Vivekpandey0455469@gmail.com</td>
+				
+				</tr>
+				
+				<tr>
+					<td>PHONE</td>
+					<td>0455466</td>
+				
+				</tr>
+				<tr>
+					<td>ADDRESS</td>
+					<td>IET CAMPUS <br/>ARYABHATT HOSTAL<br/>
+					Uttarpradesh 206021</td>
+				
+				</tr>
+			</table>
+			
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-----------------footer section of the website----->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Useful links</h1>
+                    <p>Privacy policy</p>
+                    <p>Terms of use</p>
+                    <p>Return policy</p>
+                    <p>Discount coupons</p>
+                </div>
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Company</h1>
+                    <p>About us</p>
+                    <p>Contact us</p>
+                    <p>Carrer</p>
+                    <p>Affiliate</p>
+                </div>
+                
+                
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Follow us on</h1>
+                    <p> <i class="fa fa-facebook" aria-hidden="true"></i>Facebook</p>
+                    <p> <i class="fa fa-twitter" aria-hidden="true"></i>Twitter</p>
+                    <p> <i class="fa fa-instagram" aria-hidden="true"></i>Instagram</p>
+                    <p> <i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIN</p>
+                </div>
+                
+                
+                
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Useful links</h1>
+                    <p>Privacy policy</p>
+                    <p>Terms of use</p>
+                    <p>Return policy</p>
+                    <p>Discount coupons</p>
+                </div>
+                
+            </div>
+            <hr>
+            <p class="copyright">Made by  <i class="fa fa-heart-o" aria-hidden="true"></i> Vivek pandey IET Lucknow</p>
+            
+        </div>
+    </section>
+    
+    
+    
+    <script>
+    function openmenu(){
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display="none";
+        document.getElementById("close-btn").style.display="block";
+    }
+        function closemenu(){
+        document.getElementById("side-menu").style.display="none";
+        document.getElementById("menu-btn").style.display="block";
+        document.getElementById("close-btn").style.display="none";
+    }
+    </script>
+    
+</body>
+</html>

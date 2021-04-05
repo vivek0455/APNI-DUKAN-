@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"      ></script>
+ 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  ></script>  
+</head>
+<body>
+   <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" aria-hidden="true" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" aria-hidden="true" id="close-btn" onclick="closemenu()"></i>
+                       
+            <a href="index.html"><img src="ig/logo.jpg" width="80px" class="logo"></a>
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Cart</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="login.html">Log in</a></li>
+            </ul>
+        </div>
+    </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <div id="login-box">
+        <div class="left-box">
+            <h1>Login</h1>
+            
+            <input type="text" name="username" placeholder="Username" size="40" maxlength="35"/>
+            <input type="text" name="Email" placeholder="Email id" />
+            
+            <input type="password" name="pass" placeholder="Password"/>
+             
+            <input type="submit" name="signup-button" value="Login">        </div>
+        <div class="right-box">
+            <span class="signinwith">Sign In with <br/>Social Network</span>
+            
+            <button class="social facebook">Log in with facebook</button>
+            <button class="social twitter">Log in with Twitter</button>
+            <button class="social google">Log in with Google</button>
+        </div>
+    <div class="or">OR</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-----------------footer section of the website----->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Useful links</h1>
+                    <p>Privacy policy</p>
+                    <p>Terms of use</p>
+                    <p>Return policy</p>
+                    <p>Discount coupons</p>
+                </div>
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Company</h1>
+                    <p>About us</p>
+                    <p>Contact us</p>
+                    <p>Carrer</p>
+                    <p>Affiliate</p>
+                </div>
+                
+                
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Follow us on</h1>
+                    <p> <i class="fa fa-facebook" aria-hidden="true"></i>Facebook</p>
+                    <p> <i class="fa fa-twitter" aria-hidden="true"></i>Twitter</p>
+                    <p> <i class="fa fa-instagram" aria-hidden="true"></i>Instagram</p>
+                    <p> <i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIN</p>
+                </div>
+                
+                
+                
+                
+                
+                
+                <div class="col-md-3">
+                    <h1>Useful links</h1>
+                    <p>Privacy policy</p>
+                    <p>Terms of use</p>
+                    <p>Return policy</p>
+                    <p>Discount coupons</p>
+                </div>
+                
+            </div>
+            <hr>
+            <p class="copyright">Made by  <i class="fa fa-heart-o" aria-hidden="true"></i> Vivek pandey IET Lucknow</p>
+            
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <script>
+    function openmenu(){
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display="none";
+        document.getElementById("close-btn").style.display="block";
+    }
+        function closemenu(){
+        document.getElementById("side-menu").style.display="none";
+        document.getElementById("menu-btn").style.display="block";
+        document.getElementById("close-btn").style.display="none";
+    }
+    </script>
+    
+    
+    
+    
+    
+</body>
+</html>
